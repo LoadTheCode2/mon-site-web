@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  gap: 10%;
+  margin: 0 40px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
