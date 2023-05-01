@@ -2,27 +2,39 @@ body {
   font-family: Arial;
 }
 
+.contaneur {
+  width: 80%;
+  margin-left: auto;
+  padding: 40px;
+}
+
 h1 {
   font-size: 40px;
-  text-align: center;
 }
 
 .description {
   font-size: 20px;
   margin: 0 auto;
-  text-align: center;
 }
 
 h2 {
-  text-decoration: underline;
   font-size: 30px;
-  text-align: center;
+}
+
+.grand-desc {
+  font-size: 17.5px;
 }
 
 .services {
   display: flex;
-  gap: 10%;
-  margin: 0 40px;
+  gap: 20px;
+}
+
+.services div {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 h3 {
